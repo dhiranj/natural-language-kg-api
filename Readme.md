@@ -100,14 +100,15 @@ Handle natural language queries, generate Python code, and execute it against th
    ```bash
    export OPENAI_API_KEY="your-openai-api-key"
    ```
-4. Run the FastAPI server:
-   ```bash
-   uvicorn app:app --reload
-   ```
    On Windows:
    ```bash
    set OPENAI_API_KEY="your-openai-api-key"
    ```
+4. Run the FastAPI server:
+   ```bash
+   uvicorn app:app --reload
+   ```
+
 5. Open the interactive API documentation in your browser:
    - [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
